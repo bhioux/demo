@@ -1,5 +1,5 @@
 databases:
-  - name: mysite
+  - name: demo
     databaseName: demo_1svm
     user: bhioux
     plan: free
