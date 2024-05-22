@@ -1,12 +1,12 @@
 databases:
-  - name: article
+  - name: demo
     databaseName: demo
     user: bhioux
     plan: free
 
 services:
   - type: web
-    name: article
+    name: demo
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
